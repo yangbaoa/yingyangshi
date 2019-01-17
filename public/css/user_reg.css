@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+bady{
+    font-family: "Microsoft YaHei","Helvetica Neue",HelveticaNeue,"BBAlpha Sans";
+    line-height: 170%;
+    font-size: 12px;
+    color: #000;
+}
+.box{
+    position: relative;
+}
+.bgbox{
+    max-width: 1920px;
+    min-width: 1400px;
+    position: relative;
+    width:100%;
+    height: 800px;
+}
+.bgbox>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg1{
+    background: url(../img/login/bg_line_186ad03.png) no-repeat;
+    background-size: 100% 100%;
+    
+}
+.bg2{
+    background: url(../img/login/bg_picture_b28d733.png) no-repeat 50% 0;
+}
+.bg3{
+    background: url(../img/login/bg_shadow_8964841.png) no-repeat;
+    background-size: 100% 100%;
+}
+.bg4{
+    background: url(../img/login/bg_framework_866af1c.png) no-repeat;
+    background-size: 100% 100%;
+}
+.container{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    top:0;
+}
+.container>a.logo{
+    display: block;
+    position: absolute;
+    top:170px;
+    left: 170px;
+}
+.form_box{
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -250px;
+    margin-top: -300px;
+    width:500px;
+    height: 600px;
+    border:3px solid #D9BD87;
+    border-radius: 10px;
+}
+.form_box h3{
+    color: #000;
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.form_user{
+    width:100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_user>input{
+    background:url(../img/login/index_z_71df05e.png) no-repeat;
+    background-position: -437px -235px;
+    width: 406px;
+    height: 49px;
+    text-indent: 16px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 49px;
+}
+.btn{
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.btn input{
+    display: block;
+    margin: 0 auto;
+    width: 402px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    background: #ee3b10;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 700;
+    box-shadow: 0 2px 0 #a8a8a8;
+}
+.form_user p{
+    font-size: 20px;
+}
+.form_user p a{
+    color:#000;
+    text-decoration: none;
+}

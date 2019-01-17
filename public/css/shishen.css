@@ -1,0 +1,79 @@
+.container{
+    width: 100%;
+    font-family: "Microsoft Yahei";
+}
+.shishen{
+    position: relative;
+    width: 900px;
+}
+.shishen::after{
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+}
+.item{
+    float: left;
+    width: 148px;
+    height: 163px;
+    margin-bottom: 30px;
+}
+.item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+}
+.item .pic_wrap{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+.item .pic_wrap img{
+    width: 100%;
+    height: 100%;
+}
+.item .pic_wrap .cover{
+    background: url(../img/shishen/index_z_e1a4fac.png) no-repeat;
+    background-position: -103px 0;  
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.item .name{
+    display: block;
+    color: #000;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+.item .hover{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.8);
+    opacity: 0;
+    transition: all .3s;;
+}
+.item .hover em{
+    position: absolute;
+    left: 50%;
+    margin-left: -22px;
+    top: 36px;
+    display: block;
+    width: 45px;
+    height: 53px;
+    background: url(../img/shishen/index_z_e1a4fac.png) no-repeat;
+    background-position: -170px -120px;
+}
+.item>a:hover span.hover{
+    opacity: 1;
+}

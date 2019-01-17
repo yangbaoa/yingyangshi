@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="warp">
+        <div class="order_pop">
+            <div class="order_win">
+                <div class="input_part ">
+                    <h3>亲爱的阴阳师大人，<br>
+                        请您先登陆哟
+                    </h3>
+                    <div class="form_login">
+                        <input type="text" id="nname" placeholder="请输入您的用户名">
+                        <br>
+                        <input type="password" id="npwd" placeholder="请输入您的密码">
+                        <div class="btn">
+                            <input type="button" value="立即登录" onclick="login()">
+                        </div>
+                        <p>
+                            <a href="#">忘记密码&nbsp;|</a>
+                            <a href="user_reg.html" target="_blank">注册</a>
+                        </p>
+                    </div> 
+                    <a href="index.html" id="idx" class="logo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/common.js"></script>
+<script>
+    var href=document.getElementById("idx").href
+    function login(){
+            var xhr=createXhr();//创建
+            //绑定
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4&&xhr.status==200){
+                    var res=xhr.responseText
+                    alert(res);
+                    location.href=href;
+                }
+            }
+            //打开链接
+            xhr.open("post","/login",true)
+            var nname=$("nname").value;
+            var npwd=$("npwd").value;
+            var formdata="nname="+nname+"&npwd="+npwd;
+            xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+            //发送请求
+            xhr.send(formdata)
+        }
+</script>
+</html>

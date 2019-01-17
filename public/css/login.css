@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+    line-height: 170%;
+    font-size: 12px;
+    color: #000;
+}
+.order_pop{
+    max-width: 1423px;
+    min-width: 1280px;
+    width:100%;
+    position: relative;
+    height: 674px;
+}
+.order_win{
+    width:1189px;
+    height: 674px;
+    background: url(../img/login/com_pop02_1ba4702.png) no-repeat 50% 0;
+    position: absolute;
+}
+.input_part{
+    position: absolute;
+    width: 680px;
+    height: 430px;
+    top: 153px;
+    left: 346px;
+    padding-top: 30px;
+}
+.input_part h3{
+    color: #000;
+    font-size: 42px;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.form_login{
+    width:100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_login>input{
+    background:url(../img/login/index_z_71df05e.png) no-repeat;
+    background-position: -437px -235px;
+    width: 406px;
+    height: 49px;
+    text-indent: 16px;
+    margin: 0 auto;
+    margin-bottom: 11px;
+    border: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 49px;
+}
+.btn{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.btn input{
+    display: block;
+    margin: 0 auto;
+    width: 402px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    background: #ee3b10;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 700;
+    box-shadow: 0 2px 0 #a8a8a8;
+}
+.form_login p a{
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+}
+.logo{
+    display: block;
+    position: absolute;
+    top:0;
+    right:-250px;
+    width:98px;
+    height: 263px;
+    background: url(../img/media/100.png) no-repeat;
+}

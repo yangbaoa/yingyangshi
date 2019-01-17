@@ -1,0 +1,410 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    max-width: 1920px;
+}
+.bigimg{
+    width:100%;
+    height: 954px;
+    position: relative;
+    background: url(../img/jinru/bg1_1a1638a.jpg) no-repeat center;
+}
+.bigimg>a{
+    display: block;
+    width: 59px;
+    height: 155px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.bigimg>a>img{
+    width: 100%;
+}
+.cont{
+    width: 1280px;
+    margin: auto;
+    position: relative;
+}
+.cont>div.tit{
+    width: 592px;
+    height: 468px;
+    background: url(../img/jinru/kv-title_2c92c2b.png) no-repeat center;
+    position: absolute;
+    top:85px;
+    left: 80px;
+}
+.cont>a{
+    display: block;
+    width: 103px;
+    height: 102px;
+    background: url(../img/jinru/btn-video_5f7037d.png) no-repeat center;
+    position: absolute;
+    top: 515px;
+    left: 435px;
+}
+.open{
+    box-sizing: border-box;
+    width: 203px;
+    height: 361px;
+    background: url(../img/jinru/bg-down_37552f9.png) no-repeat center;
+    z-index: 15;
+    position: fixed;
+    top:50%;
+    margin-top: -200px;
+    right: 0;
+    padding-right: 10px;
+}
+.open>a.btn_web{
+    display: block;
+    width: 129px;
+    height: 47px;
+    background: url(../img/jinru/btn-web_019a513.png) no-repeat center;
+    float: right;
+    margin: 20px 0 5px;
+}
+.open .ewm{
+    width: 119px;
+    height: 119px;
+    position: relative;
+    padding: 5px;
+    background: #fff;
+    margin: 0 0 5px;
+    float: right;
+}
+.open .ewm>span{
+    position: absolute;
+    left: 50%;
+    margin-left: -63.5px;
+    top: 15px;
+    width: 127px;
+    height: 10px;
+    background: url(../img/jinru/line_dcb1cb1.png) no-repeat;
+    animation: slide 2s linear alternate infinite;
+}
+@keyframes slide{
+    0%{
+       top:0;
+    }
+    100% {
+    top: 119px;
+    }
+}
+.open .ewm>img{
+    width: 100%;
+}
+.open>a.btn_pc{
+    width: 131px;
+    height: 137px;
+    float: right;
+    background: url(../img/jinru/btn-pc_c9af1b9.png) no-repeat;
+}
+a.btn-open,a.btn-close{
+    width: 50px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.open>a.btn-close{
+    display: none;
+}
+.open>a.btn-open{
+    display: none;
+}
+.open>a.show{
+    display: block;
+}
+.open>a>em{
+    display: block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto 5px;
+}
+.open>a.btn-close>em{
+    background: url(../img/jinru/btn-close_c4a8d6e.png) no-repeat center;
+}
+.open>a.btn-open>em{
+    background: url(../img/jinru/btn-open_d480ef8.png) no-repeat center;
+}
+.content_wrap{
+    width: 100%;
+    height: 2246px;
+    background: url(../img/jinru/bg2_376685a.jpg) no-repeat center;
+}
+.cont{
+    width: 1280px;
+    margin: auto;
+    position: relative;
+}
+.cont .box1{
+    overflow: hidden;
+}
+.cont .box1>h3.b_tit{
+    width: 551px;
+    height: 102px;
+    background: url(../img/jinru/title1_223cbbb.png) no-repeat center;
+    margin: 30px auto;
+}
+.cont .box1>ul{
+    position: relative;
+    width: 1210px;
+    margin: auto;
+}
+.cont .box1>ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.cont .box1>ul>li{
+    float: left;
+    margin-right: 41px;
+    transition: all .2s linear;
+}
+.cont .box1>ul>li:hover{
+    margin-top: -20px;
+}
+.cont .box1>ul>li:nth-child(2),.cont .box1>ul>li:last-child{
+    padding-top: 50px;
+}
+.cont .box1>ul>li:last-child{
+    margin-right: 0;
+}
+.cont .box1>ul>li>a{
+    display: block;
+    width: 270px;
+    height: 457px;
+}
+.cont .box1>ul>li>a.btn1{
+    background: url(../img/jinru/btn-01_e0d050b.png) no-repeat center;
+}
+.cont .box1>ul>li>a.btn2{
+    background: url(../img/jinru/btn-02_699c51c.png) no-repeat center;
+}
+.cont .box1>ul>li>a.btn3{
+    background: url(../img/jinru/btn-03_ef23f04.png) no-repeat center;
+}
+.cont .box1>ul>li>a.btn4{
+    background: url(../img/jinru/btn-04_ff7bc88.png) no-repeat center;
+}
+.box2>.cont>.b_tit{
+    width: 483px;
+    height: 107px;
+    background: url(../img/jinru/title2_9c19585.png) no-repeat center;
+    margin: 70px auto 30px;
+}
+
+.footer{
+    width: 930px;
+    margin:0 auto;
+    padding: 40px 0 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 600px;
+    left:200px;
+    color:#fff;
+}
+.con_left{
+    display: inline-block;
+    height: 48px;
+    min-width: 300px;
+}
+.con_left img{
+    vertical-align: middle;
+    margin-top: 2px;
+    padding-right: 15px;
+    padding-top:5px;
+}
+.con_left img:first-child{
+    padding-right: 0;
+}
+.con-right{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+.con-right i{
+  font-style: normal;  
+}
+.con-right i a{
+    color: #fff;
+    text-decoration: none;
+}
+.nie-cn-nav-i{
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+}
+.nie-cn-nav-i a{
+    display: inline-block;
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    top: 21px;
+}
+.video{
+    position: fixed;
+    top: 170px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    z-index: 100;
+    display: none;
+}
+div.video.show,div.attention.show,.d_btn>.prev.show,.d_btn>.next.show{
+    display: block;
+}
+.video>a.video-close{
+    width: 68px;
+    height: 68px;
+    display: block;
+    position: absolute;
+    right: -67px;
+    top: -37px;
+    background: url(../img/jinru/dialog_close_efa6484.png) no-repeat center;
+    transition: transform .5s;
+    z-index: 1;
+}
+.video>a.video-close:hover{
+    transform: rotate(180deg);
+}
+.video_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+}
+.video_box>video{
+    width: 800px;
+    height: 460px;
+}
+.attention{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 633px;
+    top: 50%;
+    margin: -316.5px 0 0 0;
+    background: url(../img/jinru/bg_4a2e4ae.png) no-repeat center;
+    z-index: 1002;
+    display: none;
+}
+.dialog-close{
+    cursor: pointer;
+    position: absolute;
+    z-index: 10003;
+    transform-origin: center;
+    width: 68px;
+    height: 68px;
+    left: 50%;
+    margin-left: 500px;
+    top: 10px;
+    background: url(../img/jinru/dialog_close_efa6484.png) no-repeat;
+    transition: transform .5s;
+}
+.dialog-close:hover{
+    transform: rotate(180deg);
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.wrapper>div.item{
+    width: 1423px;
+    flex-shrink: 0;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    display: none;
+}
+.wrapper>div.item.on{
+    display: block;
+}
+.wrapper>div.item>img{
+    width: 663px;
+    position: absolute;
+    height: 609px;
+    top: -42px;
+}
+.text{
+    position: absolute;
+    top: 150px;
+    left:44%;
+    width: 460px;
+    height: 326px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 26px;
+    padding-right: 20px;
+}
+.text>h1{
+    font-size: 60px;
+    line-height: normal;
+    color: #fff;
+    font-weight: 400;
+}
+.text>h3{
+    font-size: 28px;
+    color: #fff;
+    padding: 0 0 25px;
+    border-bottom: 1px dashed #fff;
+    font-weight: 100;
+}
+.text>p{
+    margin-top: 20px;
+    text-align: justify;
+}
+/*
+.d_btn{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    z-index: 100;
+}
+.d_btn>a{
+    width: 43px;
+    height: 77px;
+    position: absolute;
+    top: 50%;
+    margin-top: -38.5px;
+    display: none;
+}
+.d_btn>.prev{
+    right: 582px;
+    background: url(../img/jinru/p-left_d40e3c8.png) no-repeat;
+}
+.d_btn>.next{
+    left: 582px;
+    background: url(../img/jinru/p-right_4ba5c1a.png) no-repeat;
+}*/
